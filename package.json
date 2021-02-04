@@ -1,0 +1,24 @@
+{
+  "name": "template001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind build ./src/style.css -o ./public/style.css",
+    "watch": "watch 'npm run build' ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ESMAT001/template001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ESMAT001/template001/issues"
+  },
+  "homepage": "https://github.com/ESMAT001/template001#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  }
+}
